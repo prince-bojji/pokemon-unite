@@ -1,15 +1,18 @@
-import Home from './Home'
-import Release from './Release'
-import Play from './Play'
-import Feedback from './Feedback'
+import React from 'react'
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+import Release from './components/Release'
+import Overview from './components/Overview'
+import Feedback from './components/Feedback'
 
 function App() {
   return (
     <>
-      <Home/>
-      <Release/>
-      <Play/>
-      <Feedback/>
+      <Navbar />
+      <Home />
+      <Release />
+      <Overview />
+      <Feedback />
     </>
   );
 }
