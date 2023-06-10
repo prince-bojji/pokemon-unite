@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Play() {
+function Overview() {
   return (
     <>
     <section
@@ -60,4 +60,4 @@ function Play() {
   )
 }
 
-export default Play
+export default Overview
