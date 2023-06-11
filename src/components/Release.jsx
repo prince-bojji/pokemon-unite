@@ -2,6 +2,19 @@ import React from 'react';
 
 function ReleaseItem({ title, price, image, features, isZacian }) {
   const headerBgColor = isZacian ? 'bg-[#2584ff]' : 'bg-[#00d9ff]';
+  let url = '';
+
+  if (isZacian) {
+    url = 'https://game8.co/games/Pokemon-UNITE/archives/406091';
+  } else if (title === 'Goodra') {
+    url = 'https://game8.co/games/Pokemon-UNITE/archives/408002';
+  } else {
+    url = 'https://game8.co/games/Pokemon-UNITE/archives/409651';
+  }
+
+  const handleMoreInfoClick = () => {
+    window.location.href = url;
+  };
 
   return (
     <div className='transition-transform duration-200 ease-out hover:scale-105 w-full'>
@@ -25,7 +38,10 @@ function ReleaseItem({ title, price, image, features, isZacian }) {
               </li>
             ))}
           </ul>
-          <button className='rounded-full cursor-pointer text-xl font-semibold my-4 px-4 text-center uppercase whitespace-nowrap bg-[#fff] hover:bg-[#1b0760] hover:text-[#fff] text-[#1b0760] border-2 border-[#1b0760] w-full py-4 inline-block'>
+          <button
+            className='rounded-full cursor-pointer text-xl font-semibold my-4 px-4 text-center uppercase whitespace-nowrap bg-[#fff] hover:bg-[#1b0760] hover:text-[#fff] text-[#1b0760] border-2 border-[#1b0760] w-full py-4 inline-block'
+            onClick={handleMoreInfoClick}
+          >
             More Info
           </button>
         </div>
