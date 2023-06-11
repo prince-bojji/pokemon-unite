@@ -28,11 +28,10 @@ const Navbar = () => {
     
     return (
     <header 
-        className={`top-0 left-0 z-30 w-full transition-all duration-300 
-        ${isHide && !isOpen ? 'invisible -translate-y-full' : 'visible transform-none'}
-        ${window.scrollY > 90 ? 'shadow-md fixed' : 'sticky'}`}
+        className={`left-0 z-30 w-full transition-all duration-300 bg-[#6523b6]
+        ${isHide && !isOpen ? '-top-1/2' : 'top-0'} ${scrollPosition > 90 ? 'shadow-md fixed' : 'sticky'}`}
     >
-        <nav className='flex flex-wrap justify-between items-center bg-[#6523b6] px-4 py-4'>
+        <nav className='flex flex-wrap justify-between items-center px-4 py-4'>
             <a href='/'>
                 <img className='h-10 max-h-full w-auto' src={pokemon_logo} alt='Logo'/>
             </a>
