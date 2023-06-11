@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Release from './components/Release'
 import Overview from './components/Overview'
 import Feedback from './components/Feedback'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Release />
       <Overview />
       <Feedback />
+      <Footer />
     </>
   );
 }

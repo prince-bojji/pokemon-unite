@@ -35,7 +35,7 @@ function Item ({info}){
 const Footer = () =>{
     
     return(
-        <footer className='block py-20 px-8 bg-purple-800 pt-40 md:text-xl sm:text-lg'>
+        <footer className='block py-20 px-8 bg-purple-800 md:text-xl sm:text-lg'>
             <div className='grid mx-auto max-w-[1140px] md:grid-cols-5 md:grid-cols-auto-fit md:grid-cols-minmax-10rem-1fr'>
                 <Item info={{
                     item:'social',
@@ -64,8 +64,8 @@ const Footer = () =>{
                     anchorLink3:'#', anchorName3:'FAQ'
                 }}
                 />
-                <div className='mt-20 text-center md:order-first md:mt-4'>
-                    <img src="images/logotemp.svg" alt="" className='max-w-230' />
+                <div className='mt-20 text-center md:order-first md:mt-4 p-l'>
+                    <img  className='max-w-auto' src="images/logotemp.svg" alt=""/>
                     <p className='text-2xl text-black md:text-lg'>Copyright 2023 Pokemon Unite</p>
                 </div>
             </div>
