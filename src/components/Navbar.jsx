@@ -28,9 +28,9 @@ const Navbar = () => {
     
     return (
     <header 
-        className={`fixed top-0 left-0 z-30 w-full transition-all duration-300 
+        className={`top-0 left-0 z-30 w-full transition-all duration-300 
         ${isHide && !isOpen ? 'invisible -translate-y-full' : 'visible transform-none'}
-        ${window.scrollY > 90 && 'shadow-md'}`}
+        ${window.scrollY > 90 ? 'shadow-md fixed' : 'sticky'}`}
     >
         <nav className='flex flex-wrap justify-between items-center bg-[#6523b6] px-4 py-4'>
             <a href='/'>
