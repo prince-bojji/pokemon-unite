@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import pokemon_logo from '../assets/pokemon_logo.png'
 
 const MenuItem = ({name, link}) => {
     return (
@@ -33,7 +32,7 @@ const Navbar = () => {
     >
         <nav className='flex flex-wrap justify-between items-center px-4 py-4'>
             <a href='/'>
-                <img className='h-10 max-h-full w-auto' src={pokemon_logo} alt='Logo'/>
+                <img className='h-10 max-h-full w-auto' src='/pokemon_logo.png' alt='Logo'/>
             </a>
             <div className='md:hidden w-5 flex justify-center cursor-pointer text-4xl text-yellow-400' onClick={() => setOpen(!isOpen)}>
                 <ion-icon name={isOpen ? 'close' : 'menu'}></ion-icon>
