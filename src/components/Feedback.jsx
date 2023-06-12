@@ -5,7 +5,7 @@ function Feedback() {
     <div class='bg-[#ffb22e]'>
       <section class='py-20 px-2' data-aos='zoom-in' id='feedback'>
         <header class='text-center mb-16'>
-          <h2 class='text-5xl text-[#1b0760]'>Players Galery</h2>
+          <h2 class='text-5xl text-[#1b0760]'>Players Gallery</h2>
         </header>
         <div class='mx-auto max-w-7xl'>
           <div class='rounded-xl border-4 p-12'>
