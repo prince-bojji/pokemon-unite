@@ -21,7 +21,7 @@ Before you begin, ensure you have installed the latest version of:
 
 1. Clone the repository:
    ```bash
-   git clone (https://github.com/prince-bojji/pokemon-unite.git)
+   git clone https://github.com/prince-bojji/pokemon-unite.git
 
 2. Navigate to the project directory:
    ```bash
