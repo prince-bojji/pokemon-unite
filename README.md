@@ -1,5 +1,7 @@
 # Pokémon Unite
 
+![Pokemon Unite](./images/ss.png)
+
 Welcome to the Pokémon Unite website! Our goal is to promote the game and bring players together by providing a central hub for information, resources, and fun content about Pokémon Unite. Whether you're a new player or a seasoned gamer, our website aims to be your go-to source for everything you need to know about this exciting multiplayer game. We also strive to build a strong community where players can connect, share strategies, and stay updated on the latest news. Our ultimate objective is to contribute to the success and enjoyment of Pokémon Unite by creating a space where fans can come together, learn, and have a great time playing the game.
 
 ## Steps to Run the Project
